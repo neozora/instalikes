@@ -1,0 +1,17 @@
+#Instagram web URL
+InstagramURL = http://www.instagram.com/
+
+#Account name or tag.
+Target = takrelevan
+
+#Set as "account" or "tag"	
+TargetType = account
+
+#Users Instagram account credential in Orchestrator, if not logged in.
+InstagramCred = IG_Cred
+
+#"Like" or "Unlike"
+Action = Like
+
+#Set maximum number or post to be liked/unliked. Set 0 for infinity.
+MaxPost = 10
