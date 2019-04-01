@@ -145,9 +145,9 @@
     </If>
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke NavToTarget workflow" sap:VirtualizedContainerService.HintSize="464,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Instagram\NavToTarget.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_TargetType">account</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_Target">takrelevan</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_InstagramURL">www.instagram.com/</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_TargetType">[TargetType]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Target">[Target]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_InstagramURL">[InstagramURL]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke SelectFirstPost workflow" sap:VirtualizedContainerService.HintSize="464,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Instagram\SelectFirstPost.xaml">
